@@ -1,0 +1,101 @@
+body{
+    background-color: grey;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black; 
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    height: 600px;
+    margin: 0 auto;
+    background-color: grey;
+  }
+  
+  .card-header {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: Bold;
+    font-weight: bold;
+  }
+  
+  .card-img-top {
+    padding: 15px;
+    width: 90%; 
+    height: auto; 
+    border-radius: 10px;
+    margin: 0 auto; 
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .countryName {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .card-text {
+    font-weight: bold;
+    color:black; 
+    text-align: center;
+  }
+  
+  .title {
+    color: #007bff; 
+  }
+  
+  .answer {
+    color: black;
+  }
+  
+  .weatherButton {
+    width: 50%;
+    height: 50px;
+    background-color:black; 
+    color: whitesmoke; 
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .weatherButton:hover {
+    background-color: silver;
+  }
+  
+  .weather-report {
+    padding-top: 20px;
+    font-weight: bold;
+    color:black;
+  }
